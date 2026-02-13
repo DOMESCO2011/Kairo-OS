@@ -1,3 +1,4 @@
+#include "common.h"
 struct gdt_entry {
     unsigned short limit_low;
     unsigned short base_low;

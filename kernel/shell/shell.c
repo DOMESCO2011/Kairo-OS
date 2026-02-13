@@ -102,20 +102,13 @@ void execute_command() {
         
     }
 
-	else if (strcmp(shell_buffer, "zerodiv") == 0) {
-		print("Attempting division by zero...\n");
-		int a = 5;
-		int b = 0;
-		int c = a / b;
 
-	}
     else if (strcmp(shell_buffer, "halt") == 0) {
         print("System halted. Power off manually.");
         asm volatile("hlt");
     }
     else if (strcmp(shell_buffer, "panic") == 0) {
 		kernel_panic("USER_TRIGGERED_PANIC: Manual system crash test.");
-
     }
     else if (strcmp(shell_buffer, "reboot") == 0) {
         print("Rebooting...");

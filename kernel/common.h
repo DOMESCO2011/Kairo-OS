@@ -10,7 +10,7 @@ unsigned char inb(unsigned short port);
 void outb(unsigned short port, unsigned char val);
 unsigned char get_scancode();
 unsigned char get_ascii(unsigned char scancode);
-
+void kernel_panic(const char* message);
 // Shell & Utils
 void run_shell(unsigned char scancode);
 void reset_buffer();
@@ -25,3 +25,8 @@ void gdt_install();
 void idt_install();
 void pic_remap();
 #endif
+
+
+//info
+#define KERNEL_VERSION "0.0.1"
+#define KERNEL_NAME "Thank_you_Gary"

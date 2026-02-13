@@ -90,21 +90,38 @@ void clear_screen_color(unsigned char color_code) {
 }
 
 void kernel_panic(const char* message) {
-    clear_screen_color(0x4F); // Fehér szöveg, piros háttér (0x4 = Piros, 0xF = Fehér)
+    // 0x4F: Piros háttér (4), Fehér villogás nélküli szöveg (F)
+    clear_screen_color(0x4F); 
+
+    print("\n");
+    print("  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \n");
+    print("  !!                                                                      !!  \n");
+    print("  !!   _  _   _   _ _   _  _    ___   _   _  _   _    ___  _   _  _  ___  !!  \n");
+    print("  !!  | |/ / / \\ | | | | |/ /  | _ \\ / \\ | \\| | | |  | _ \\| \\_/ || |/ __| !!  \n");
+    print("  !!  | ' < | o || _ | | ' <   |  _/| o || \\  | |_|  |  _/| | | || | (__  !!  \n");
+    print("  !!  |_|\\_\\|_n_||_| |_|_|\\_\\  |_|  |_n_||_|\\_| (_)  |_|  |_| |_||_|\\___| !!  \n");
+    print("  !!                                                                      !!  \n");
+    print("  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \n");
+    
+    print("\n  A fatal error has occurred and KairOS has been halted to prevent damage.\n");
+    print("  --------------------------------------------------------------------------\n");
+    
+    print("  KERNEL NAME:    "); print(KERNEL_NAME);    print("\n");
+    print("  VERSION:    "); print(KERNEL_VERSION); print("\n");
+    print("  ERROR MSG:  "); print(message);        print("\n");
+    
+    print("  --------------------------------------------------------------------------\n");
+    print("  TECHNICAL INFORMATION:\n\n");
+    print("  * Instruction Pointer (EIP) and Registers: [DUMPED TO SERIAL]\n");
+    print("  * System state: ATOMIC_CRITICAL_SECTION\n");
+    print("  * Scheduler: SUSPENDED\n\n");
+    
+    print("  Please manually power off or restart your hardware.\n");
+    print("  The system is now in an infinite loop. Contact domesco for support.\n");
 
 
-
-
-    print("==========================================================\n");
-	print("--------- CRITICAL KERNEL ERROR --- KERNEL PANIC ---------\n");
-	print("==========================================================\n");
-    print(" SYSTEM HALTED DUE TO A CRITICAL ERROR:\n\n ");
-    print(message);
-    print("\n\n Please restart your computer.");
-
-    // Megállítjuk a processzort végleg
-    asm volatile("cli"); // Megszakítások tiltása
-    while(1) {
-        asm volatile("hlt"); // CPU altatása
+    asm volatile("cli"); 
+    for(;;) {
+        asm volatile("hlt");
     }
 }

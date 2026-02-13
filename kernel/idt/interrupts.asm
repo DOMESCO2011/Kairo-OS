@@ -3,15 +3,15 @@ extern divide_by_zero_handler
 global isr0
 global idt_load
 
-; Exception 0: Divide by Zero
+; Exception 0 handling
 isr0:
-    pusha               ; Minden regiszter mentése (EAX, EBX, stb.)
+    pusha
     call divide_by_zero_handler
-    popa                ; Regiszterek visszaállítása
-    iret                ; Visszatérés a megszakításból (fontos: nem ret!)
+    popa
+    iret
 
-; Az IDT pointer betöltése a processzorba
+; IDT register loading
 idt_load:
-    mov edx, [esp + 4]  ; C-ből kapott idtp címe
-    lidt [edx]          ; Load IDT
+    mov edx, [esp + 4]
+    lidt [edx]
     ret
