@@ -1,0 +1,67 @@
+# System / Diagnostics
+test (echo|panic|mem)                     system tests
+info                                     show basic system info #help
+uptime                                   show kernel uptime #help
+reboot                                   reboot the system #flag
+shutdown                                 shut down the system #flag
+version                                  show kernel version #help
+cpustats                                 display CPU usage stats #help
+memstats                                 display memory usage stats #help
+irqstats                                 display interrupt stats #help
+tasks                                     list running tasks #help
+kill <task_id>                            terminate a task #flag
+
+# Memory
+alloc <size>                              allocate memory block #help
+free <addr>                               free memory block #help
+memread <addr> <size>                     read memory content #help
+memwrite <addr> <data>                    write memory content #flag
+stackdump                                 dump current stack #help
+heapdump                                  dump heap memory #help
+
+# IO
+in <port>                                 read from IO port #help
+out <port> <value>                        write to IO port #flag
+gpio <pin> (set|clear|read)               control GPIO pin #help
+uart send <data>                           send data via UART #flag
+uart recv                                  receive data via UART #help
+led (on|off|blink)                         onboard LED control #flag
+
+# CPU / Low-Level
+hlt                                       halt CPU until next interrupt #help
+nop                                       no operation #help
+cpuid                                     get CPU info #help
+interrupt <num>                            trigger software interrupt #flag
+enable_irq                                 enable interrupts #flag
+disable_irq                                disable interrupts #flag
+set_flag <flag>                             set CPU flag #flag
+clear_flag <flag>                           clear CPU flag #flag
+get_flags                                  show CPU flags #help
+
+# Debug / Logging
+log show <lines>                           display last <lines> log entries #help
+log clear                                   clear log buffer #flag
+trace start                                 start function tracing #flag
+trace stop                                  stop function tracing #flag
+break <addr>                                set breakpoint at addr #flag
+watch <addr>                                watch memory address #flag
+
+# Timers
+sleep <ms>                                 sleep for milliseconds #flag
+timer start <id> <interval>                 start a timer #flag
+timer stop <id>                             stop a timer #flag
+tickcount                                  show system tick count #help
+
+# Network / Basic (assuming NIC driver soon)
+net up                                    initialize network #flag
+net down                                  disable network #flag
+net status                                 show network status #help
+ping <ip>                                  ping an IP #flag
+ipconfig                                   show network config #help
+
+# Extra Utilities
+echo <text>                                print text to console #help
+clear                                      clear screen #flag
+date                                       show current date/time #help
+rand <min> <max>                            generate random number #help
+version check                              check for kernel updates #help

@@ -32,41 +32,47 @@ void scroll() {
     }
 }
 
-void print(const char* str) {
+// Segédfüggvény egyetlen karakter kiírásához (tisztább kód)
+void putchar(char c) {
     unsigned short* video_memory = (unsigned short*)VGA_ADDRESS;
-    
-    for (int i = 0; str[i] != '\0'; i++) {
-        if (str[i] == '\n') {
-            cursor_x = 0;
-            cursor_y++;
-        } 
-        else if (str[i] == '\b') {
-            // Vizuális Backspace logika
-            if (cursor_x > 0) {
-                cursor_x--;
-            } else if (cursor_y > 0) {
-                // Ha a sor elején vagyunk, visszalépünk az előző sor végére
-                cursor_y--;
-                cursor_x = VGA_WIDTH - 1;
-            }
-            // Karakter törlése: szóköz beírása a kurzor helyére
-            video_memory[cursor_y * VGA_WIDTH + cursor_x] = (unsigned short)' ' | (0x0F << 8);
-        } 
-        else {
-            video_memory[cursor_y * VGA_WIDTH + cursor_x] = (unsigned short)str[i] | (0x0F << 8);
-            cursor_x++;
-        }
 
-        // Sorvég figyelése
-        if (cursor_x >= VGA_WIDTH) {
-            cursor_x = 0;
-            cursor_y++;
+    if (c == '\n') {
+        cursor_x = 0;
+        cursor_y++;
+    } 
+    else if (c == '\b') {
+        if (cursor_x > 0) {
+            cursor_x--;
+        } else if (cursor_y > 0) {
+            cursor_y--;
+            cursor_x = VGA_WIDTH - 1;
         }
-        scroll();
+        video_memory[cursor_y * VGA_WIDTH + cursor_x] = (unsigned short)' ' | (0x0F << 8);
+        return; // Backspace után nem kell tovább menni
+    } 
+    else {
+        video_memory[cursor_y * VGA_WIDTH + cursor_x] = (unsigned short)c | (0x0F << 8);
+        cursor_x++;
+    }
+
+    // Ha a sor végére értünk, ugrás a következő sor elejére
+    if (cursor_x >= VGA_WIDTH) {
+        cursor_x = 0;
+        cursor_y++;
+    }
+
+    // Gördülés, ha elértük az alját
+    if (cursor_y >= VGA_HEIGHT) {
+        scroll(); // A scroll() most már cursor_y = VGA_HEIGHT - 1 -re állítja a kurzort
+    }
+}
+
+void print(const char* str) {
+    for (int i = 0; str[i] != '\0'; i++) {
+        putchar(str[i]);
     }
     update_cursor();
 }
-
 void clear_screen() {
     unsigned short* video_memory = (unsigned short*)VGA_ADDRESS;
     for (int i = 0; i < VGA_WIDTH * VGA_HEIGHT; i++) {
@@ -94,14 +100,9 @@ void kernel_panic(const char* message) {
     clear_screen_color(0x4F); 
 
     print("\n");
-    print("  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \n");
-    print("  !!                                                                      !!  \n");
-    print("  !!   _  _   _   _ _   _  _    ___   _   _  _   _    ___  _   _  _  ___  !!  \n");
-    print("  !!  | |/ / / \\ | | | | |/ /  | _ \\ / \\ | \\| | | |  | _ \\| \\_/ || |/ __| !!  \n");
-    print("  !!  | ' < | o || _ | | ' <   |  _/| o || \\  | |_|  |  _/| | | || | (__  !!  \n");
-    print("  !!  |_|\\_\\|_n_||_| |_|_|\\_\\  |_|  |_n_||_|\\_| (_)  |_|  |_| |_||_|\\___| !!  \n");
-    print("  !!                                                                      !!  \n");
-    print("  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \n");
+    print(" !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \n");
+    print(" !!! KAIROS KERNEL PANIC == FATAL ERROR !!!  \n");
+    print(" !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \n");
     
     print("\n  A fatal error has occurred and KairOS has been halted to prevent damage.\n");
     print("  --------------------------------------------------------------------------\n");
