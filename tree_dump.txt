@@ -1,0 +1,1012 @@
+Directory tree of: /home/domesco/Documents/KairOS
+
+├── .git
+│   ├── COMMIT_EDITMSG
+│   ├── FETCH_HEAD
+│   ├── HEAD
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── push-to-checkout.sample
+│   │   ├── sendemail-validate.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── master
+│   │       └── remotes
+│   │           └── origin
+│   │               ├── HEAD
+│   │               └── master
+│   ├── objects
+│   │   ├── 00
+│   │   │   └── e2c5d5bfa237220cc64056bc21b89bf05dd12b
+│   │   ├── 01
+│   │   │   └── c2148b48c53017f461b4d154f58eb64a2660ae
+│   │   ├── 02
+│   │   │   └── 64e7a07132b7133f2e401548192e4bea4c7402
+│   │   ├── 04
+│   │   │   └── fdc2d165339f850d743391c45e97a66a1fcc58
+│   │   ├── 08
+│   │   │   └── 9f7b522b05cca278c3699c64c51957a90fc523
+│   │   ├── 0a
+│   │   │   └── 29153a9772da968efe8bee1525f0fcfdc15c38
+│   │   ├── 0c
+│   │   │   └── 6f620a4840008868eb64098c45a9c8ad229ab3
+│   │   ├── 10
+│   │   │   └── 8ade59ea64df3d8ae1d060a8413913f4f1fbe9
+│   │   ├── 14
+│   │   │   └── 64007ab2a2c339ebd58ae86e0799fd52493e9e
+│   │   ├── 15
+│   │   │   └── 36a2b99b17f6c22ed4aed6bf577a9f1ef45de9
+│   │   ├── 17
+│   │   │   └── db34d8bce723a8e9a0ab2136b0c54892e3081a
+│   │   ├── 18
+│   │   │   ├── 7514f8da255ae29bc5032d41dc60f956b186d1
+│   │   │   └── ef6a0917c9fed9c76bc4c643dc4b9a9a544f15
+│   │   ├── 1d
+│   │   │   ├── 6efc9bcbaf8a233b8b7c24f9c2f3ca4b6dda83
+│   │   │   └── d7b8e09cab50b3fb1e3aa5a1cee97673ac14a2
+│   │   ├── 23
+│   │   │   └── aec734a4d18854daac856c93c2b801c64718f1
+│   │   ├── 25
+│   │   │   └── 7da79dfbd07108840d57f73a8466f472056d47
+│   │   ├── 26
+│   │   │   └── b0cb99af84b8060f4b65832d4cbbb168844360
+│   │   ├── 2a
+│   │   │   └── 6036696df46a090feb674eafece18bb12fb36d
+│   │   ├── 2d
+│   │   │   ├── 3bc3648253f64a3fbdcd3abb08e7ec8e776cf6
+│   │   │   └── 7431ec7c4fa9c82e751484e3bcc96a39abb775
+│   │   ├── 2e
+│   │   │   └── 72780245466566820a147609ec61ab58c604d7
+│   │   ├── 31
+│   │   │   └── 3b4214215b5ed27af2175ec0b504813c8ba9af
+│   │   ├── 36
+│   │   │   └── e8cd56b0c674b42989781a9beb7425e69cf742
+│   │   ├── 37
+│   │   │   └── 4e46401768282aa48d2452f1622e83827966a6
+│   │   ├── 3b
+│   │   │   └── 8393aedfc59a102de6acb495b468588645e7f5
+│   │   ├── 3d
+│   │   │   └── 61c7c9731f7d8d9301d9b2c7a8726b04e37d42
+│   │   ├── 3f
+│   │   │   └── 2918aba82501603aa1fcd12ace2bce09181075
+│   │   ├── 41
+│   │   │   └── f651149449d97b678040bab46b44ae647231bb
+│   │   ├── 44
+│   │   │   ├── 813c1ebed1c929717d604ad0ccbca6df071f9f
+│   │   │   └── 9d2cbb31aabc1ba8075021a795ed04ec0bfe72
+│   │   ├── 48
+│   │   │   └── 1d49b5cb43705c1a15fbf61469c2f8e3220441
+│   │   ├── 4c
+│   │   │   ├── d5f1ba9debe7c120c76deca65c5bf37fbe1ed7
+│   │   │   └── df778fd0a8a5dc88a8af177c25f5f5af0ee48a
+│   │   ├── 4f
+│   │   │   └── db2297a71d4aac7943830480d252cf87e646ad
+│   │   ├── 50
+│   │   │   ├── 996e5b07de644fad724653f7ebe559cac560e5
+│   │   │   └── aafddc2d468abc79e6a07ecd04f714ab6d1694
+│   │   ├── 53
+│   │   │   └── c9c6ff9c69b1bd8c0b7ed5488a171990b07de6
+│   │   ├── 57
+│   │   │   ├── 59181f9087f03570f39ca162946b4a59c2a6cf
+│   │   │   └── e7d677da214da5807d4729afc952d4adad41e6
+│   │   ├── 58
+│   │   │   └── 52f45cb5f19b6409a771e1519c5c0791a7180b
+│   │   ├── 5b
+│   │   │   └── f24158674470de0c796cad39505903c9930435
+│   │   ├── 5c
+│   │   │   └── c1bc5c23ce77a66f497b7e741b19a37ffa24b2
+│   │   ├── 66
+│   │   │   └── a254fdcf627837b9dee2f558711d112b2a63e8
+│   │   ├── 68
+│   │   │   └── 059af09bb9c2bd16a1b12f6505074b7150ee06
+│   │   ├── 6b
+│   │   │   └── 2612a7c32da964c9e29aeeab3498b20b42d8e0
+│   │   ├── 71
+│   │   │   └── 8dab69dcd83c069831c6e346b9fd30383045da
+│   │   ├── 73
+│   │   │   └── ab69ae01b85cc2d367bd0a1e2ba0104229f08b
+│   │   ├── 78
+│   │   │   └── d826877789c85f12c7682da2b1c0cd1b4b356f
+│   │   ├── 79
+│   │   │   ├── 84a0551b7d0f8e4f5e715fb5e5b1c0e2fd98fc
+│   │   │   └── a69958e186dbbeb9bd6d9e7de4ed03e9a48f72
+│   │   ├── 80
+│   │   │   └── 09d711f696dde00ca6d49cbf75184ae5a38e3a
+│   │   ├── 82
+│   │   │   └── 94c62469c302bbbab9885b85b9be59438cee15
+│   │   ├── 88
+│   │   │   └── 70be789bea56a225a506a6dee04606204c9151
+│   │   ├── 89
+│   │   │   └── 6b4de6ed4e1b9bb2493ba4ccc16076af1ee416
+│   │   ├── 90
+│   │   │   └── ec6d94c7be55f3d6c6cb8bc326f8ab2c263e1a
+│   │   ├── 92
+│   │   │   └── e3ef476972bb12c584acc04d1be5e9cdad8dbc
+│   │   ├── 96
+│   │   │   └── 3790eac4e765d1a1eb5cf9fcbf544559e9a157
+│   │   ├── 97
+│   │   │   ├── d6559b1d28bb6e09b3df3140b1ef314e85c958
+│   │   │   └── e51084095dee56d3f4a76e3bbdec9f89c76ab1
+│   │   ├── 9e
+│   │   │   └── 6d57e8f692295213a4de3601238bf5bf5c8b09
+│   │   ├── 9f
+│   │   │   └── 58cc44027af7c7dcbd871d41c9a071e92c70cb
+│   │   ├── a1
+│   │   │   └── d5150eb5f96119a1df6f0cd601e19965de15a3
+│   │   ├── a6
+│   │   │   └── 6bc75cf2aeaa578c5585982d3901392d268581
+│   │   ├── a7
+│   │   │   └── c282b1440bfb4a1a8bd404eb2cd60868ec082c
+│   │   ├── aa
+│   │   │   └── e4196818080da88a3cf2e3aa0dbdb9981f0435
+│   │   ├── ad
+│   │   │   ├── 30a24e4c3a32214ff35de5a66033e4254b97aa
+│   │   │   ├── 99861a369c51f7bd6f06e1ffc3e1fc5c9a7112
+│   │   │   └── c3d3a47c99442a4ff466cc7d418f3242bd15b1
+│   │   ├── b1
+│   │   │   └── 42203100117a1a93799188d3c9cdd13b6c140a
+│   │   ├── b2
+│   │   │   └── b4f9ed9e8fddf4d5c3d75ed36df60e768f3e5f
+│   │   ├── b3
+│   │   │   └── 0efd44a14b07855dd3b805f699d36ab14e2abd
+│   │   ├── b6
+│   │   │   └── 13016bcc4142c55bf7ed92cae810ac1c83fada
+│   │   ├── b7
+│   │   │   └── 6336211893353d0bfdb8345a1a60f53d4a7dec
+│   │   ├── b8
+│   │   │   └── dde582ccaee18daf91ca0bbace3e84653d6a31
+│   │   ├── ba
+│   │   │   └── 20db6016b57a6c2789a27d3dbc27d07872c418
+│   │   ├── cb
+│   │   │   ├── 5120a4f021f8470d1f12b3eddd0dfad367523b
+│   │   │   └── 6d2933d062f6b4c799f1092ac2633b1b3dd123
+│   │   ├── cc
+│   │   │   └── 3681d1bcfed0ef607a6d4819f35a3dc9ba9e8d
+│   │   ├── ce
+│   │   │   └── c88068a230663969fe0f3971fdb5051e3f73a8
+│   │   ├── d3
+│   │   │   └── 2b5ddc66e36e9b786d665b3b8b3eecc8d3cd46
+│   │   ├── d7
+│   │   │   └── a6baebc0038318d09405b08bd9f70f452dca93
+│   │   ├── e0
+│   │   │   └── a61e5c5b1f338aef1fdad2db14ec9640065528
+│   │   ├── e6
+│   │   │   └── 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+│   │   ├── ea
+│   │   │   └── a38c7d4692cf08489fcfc893293976be77ec7b
+│   │   ├── ee
+│   │   │   └── 964d95b190bb0b0c37a5fbd5e80f7e6cd4b002
+│   │   ├── f0
+│   │   │   └── 2420facc3eb82cb9a15705d42c37de034ddcf0
+│   │   ├── f6
+│   │   │   └── 67ab68cd8b600b0a2c85c06452a9bbeb4b9c53
+│   │   ├── f9
+│   │   │   └── 3f9639b286b9c5c8130b235d9c7e0daf1be01b
+│   │   ├── fc
+│   │   │   ├── 811e8a81c484385c14efca5995b10cd9b3925c
+│   │   │   └── 9d4438eff49d317e8cdfc0aacdbccd4c1b5964
+│   │   ├── info
+│   │   └── pack
+│   └── refs
+│       ├── heads
+│       │   └── master
+│       ├── remotes
+│       │   └── origin
+│       │       ├── HEAD
+│       │       └── master
+│       └── tags
+├── KairOS.code-workspace
+├── LICENCE
+├── Makefile
+├── README.md
+├── bin
+│   ├── boot
+│   │   └── boot.o
+│   ├── drivers
+│   │   ├── keyboard.o
+│   │   └── vga.o
+│   ├── gdt
+│   │   └── gdt.o
+│   ├── idt
+│   │   ├── idt.o
+│   │   └── interrupts.o
+│   ├── kairos-kernel
+│   ├── kernel
+│   │   ├── boot
+│   │   ├── drivers
+│   │   ├── gdt
+│   │   ├── idt
+│   │   └── shell
+│   │       └── commands
+│   ├── kernel.o
+│   ├── lib.o
+│   └── shell
+│       ├── commands
+│       │   ├── cpu.o
+│       │   ├── extra_cmds.o
+│       │   ├── io_cmds.o
+│       │   ├── mem_cmds.o
+│       │   ├── sys_cmds.o
+│       │   ├── system.o
+│       │   └── test.o
+│       └── shell.o
+├── dumper.py
+│   | import os
+│   | OUTPUT_FILE = "tree_dump.txt"
+│   | TEXT_EXTENSIONS = {
+│   |     ".py", ".txt", ".c", ".h", ".ld", ".asm"
+│   | }
+│   | def write(line, file):
+│   |     print(line)
+│   |     file.write(line + "\n")
+│   | def is_text_file(filename):
+│   |     _, ext = os.path.splitext(filename.lower())
+│   |     return ext in TEXT_EXTENSIONS
+│   | def print_tree(path, file, prefix=""):
+│   |     items = sorted(os.listdir(path))
+│   |     for i, item in enumerate(items):
+│   |         item_path = os.path.join(path, item)
+│   |         is_last = i == len(items) - 1
+│   |         connector = "└── " if is_last else "├── "
+│   |         write(prefix + connector + item, file)
+│   |         if os.path.isdir(item_path):
+│   |             new_prefix = prefix + ("    " if is_last else "│   ")
+│   |             print_tree(item_path, file, new_prefix)
+│   |         else:
+│   |             # 🔒 csak engedélyezett szövegfájlok tartalma
+│   |             if not is_text_file(item):
+│   |                 continue
+│   |             try:
+│   |                 with open(item_path, "r", encoding="utf-8", errors="ignore") as f:
+│   |                     new_prefix = prefix + ("    " if is_last else "│   ")
+│   |                     for line in f:
+│   |                         line = line.rstrip()
+│   |                         if not line:
+│   |                             continue
+│   |                         if len(line) > 120:
+│   |                             line = line[:117] + "..."
+│   |                         write(new_prefix + "| " + line, file)
+│   |             except Exception:
+│   |                 continue
+│   | if __name__ == "__main__":
+│   |     root_folder = os.path.dirname(os.path.abspath(__file__))
+│   |     with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
+│   |         write(f"Directory tree of: {root_folder}\n", out)
+│   |         print_tree(root_folder, out)
+│   |     print(f"\n✔ Kimenet elmentve: {OUTPUT_FILE}")
+├── kernel
+│   ├── boot
+│   │   └── boot.asm
+│   │       | bits 32
+│   │       | section .multiboot
+│   │       |     align 4
+│   │       |     dd 0x1BADB002
+│   │       |     dd 0x00
+│   │       |     dd - (0x1BADB002 + 0x00)
+│   │       | section .text
+│   │       | global _start
+│   │       | extern kmain
+│   │       | _start:
+│   │       |     cli
+│   │       |     mov esp, stack_space
+│   │       |     call kmain
+│   │       |     hlt
+│   │       | section .bss
+│   │       | resb 8192
+│   │       | stack_space:
+│   ├── common.h
+│   │   | #ifndef COMMON_H
+│   │   | #define COMMON_H
+│   │   | /* --- OS Információk --- */
+│   │   | #define KERNEL_VERSION "0.0.3"
+│   │   | #define KERNEL_NAME "Thank You Gary"
+│   │   | /* --- VGA / Megjelenítés --- */
+│   │   | void print(const char* str);
+│   │   | void clear_screen();
+│   │   | void clear_screen_color(unsigned char color_code);
+│   │   | void kernel_panic(const char* message);
+│   │   | /* --- Alapvető I/O (kernel/lib.c) --- */
+│   │   | unsigned char inb(unsigned short port);
+│   │   | void outb(unsigned short port, unsigned char val);
+│   │   | void outw(unsigned short port, unsigned short val);
+│   │   | /* --- Utility / Library (kernel/lib.c) --- */
+│   │   | int strcmp(const char* s1, const char* s2);
+│   │   | int strlen(const char* str);
+│   │   | void itoa(int n, char s[]);
+│   │   | void get_cpu_vendor();
+│   │   | /* --- Billentyűzet (drivers/keyboard.c) --- */
+│   │   | unsigned char get_scancode();
+│   │   | unsigned char get_ascii(unsigned char scancode);
+│   │   | /* --- Shell (shell/shell.c) --- */
+│   │   | void run_shell(unsigned char scancode);
+│   │   | /* --- Rendszer / Deskriptor táblák --- */
+│   │   | void gdt_install();
+│   │   | void idt_install();
+│   │   | void pic_remap();
+│   │   | int strncmp(const char* s1, const char* s2, int n);
+│   │   | #endif
+│   ├── drivers
+│   │   ├── keyboard.c
+│   │   │   | #include "common.h"
+│   │   │   | unsigned char kbd_us[128] = {
+│   │   │   |     0,  27, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', '\b',
+│   │   │   |     '\t', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', '\n',
+│   │   │   |     0, 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', '\'', '`', 0,
+│   │   │   |     '\\', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/', 0, '*', 0, ' '
+│   │   │   | };
+│   │   │   | unsigned char get_scancode() {
+│   │   │   |     if (inb(0x64) & 1) return inb(0x60);
+│   │   │   |     return 0;
+│   │   │   | }
+│   │   │   | unsigned char get_ascii(unsigned char scancode) {
+│   │   │   |     if (scancode & 0x80) return 0;
+│   │   │   |     return kbd_us[scancode];
+│   │   │   | }
+│   │   ├── keyboard.h
+│   │   │   | #ifndef KEYBOARD_H
+│   │   │   | #define KEYBOARD_H
+│   │   │   | unsigned char inb(unsigned short port);
+│   │   │   | unsigned char get_scancode();
+│   │   │   | #endif
+│   │   ├── vga.c
+│   │   │   | #include "common.h"
+│   │   │   | #define VGA_WIDTH 80
+│   │   │   | #define VGA_HEIGHT 25
+│   │   │   | #define VGA_ADDRESS 0xB8000
+│   │   │   | static int cursor_x = 0;
+│   │   │   | static int cursor_y = 0;
+│   │   │   | // Kurzort a hardver szintjén mozgatja
+│   │   │   | void update_cursor() {
+│   │   │   |     unsigned short pos = cursor_y * VGA_WIDTH + cursor_x;
+│   │   │   |     // Port regiszterek kezelése (0x3D4 és 0x3D5 a VGA vezérlőhöz)
+│   │   │   |     outb(0x3D4, 0x0F);
+│   │   │   |     outb(0x3D5, (unsigned char)(pos & 0xFF));
+│   │   │   |     outb(0x3D4, 0x0E);
+│   │   │   |     outb(0x3D5, (unsigned char)((pos >> 8) & 0xFF));
+│   │   │   | }
+│   │   │   | void scroll() {
+│   │   │   |     unsigned short* video_memory = (unsigned short*)VGA_ADDRESS;
+│   │   │   |     if (cursor_y >= VGA_HEIGHT) {
+│   │   │   |         // Sorok feltolása eggyel
+│   │   │   |         for (int i = 0; i < (VGA_HEIGHT - 1) * VGA_WIDTH; i++) {
+│   │   │   |             video_memory[i] = video_memory[i + VGA_WIDTH];
+│   │   │   |         }
+│   │   │   |         // Az utolsó sor kitakarítása
+│   │   │   |         for (int i = (VGA_HEIGHT - 1) * VGA_WIDTH; i < VGA_HEIGHT * VGA_WIDTH; i++) {
+│   │   │   |             video_memory[i] = (unsigned short)' ' | (0x0F << 8);
+│   │   │   |         }
+│   │   │   |         cursor_y = VGA_HEIGHT - 1;
+│   │   │   |     }
+│   │   │   | }
+│   │   │   | // Segédfüggvény egyetlen karakter kiírásához (tisztább kód)
+│   │   │   | void putchar(char c) {
+│   │   │   |     unsigned short* video_memory = (unsigned short*)VGA_ADDRESS;
+│   │   │   |     if (c == '\n') {
+│   │   │   |         cursor_x = 0;
+│   │   │   |         cursor_y++;
+│   │   │   |     }
+│   │   │   |     else if (c == '\b') {
+│   │   │   |         if (cursor_x > 0) {
+│   │   │   |             cursor_x--;
+│   │   │   |         } else if (cursor_y > 0) {
+│   │   │   |             cursor_y--;
+│   │   │   |             cursor_x = VGA_WIDTH - 1;
+│   │   │   |         }
+│   │   │   |         video_memory[cursor_y * VGA_WIDTH + cursor_x] = (unsigned short)' ' | (0x0F << 8);
+│   │   │   |         return; // Backspace után nem kell tovább menni
+│   │   │   |     }
+│   │   │   |     else {
+│   │   │   |         video_memory[cursor_y * VGA_WIDTH + cursor_x] = (unsigned short)c | (0x0F << 8);
+│   │   │   |         cursor_x++;
+│   │   │   |     }
+│   │   │   |     // Ha a sor végére értünk, ugrás a következő sor elejére
+│   │   │   |     if (cursor_x >= VGA_WIDTH) {
+│   │   │   |         cursor_x = 0;
+│   │   │   |         cursor_y++;
+│   │   │   |     }
+│   │   │   |     // Gördülés, ha elértük az alját
+│   │   │   |     if (cursor_y >= VGA_HEIGHT) {
+│   │   │   |         scroll(); // A scroll() most már cursor_y = VGA_HEIGHT - 1 -re állítja a kurzort
+│   │   │   |     }
+│   │   │   | }
+│   │   │   | void print(const char* str) {
+│   │   │   |     for (int i = 0; str[i] != '\0'; i++) {
+│   │   │   |         putchar(str[i]);
+│   │   │   |     }
+│   │   │   |     update_cursor();
+│   │   │   | }
+│   │   │   | void clear_screen() {
+│   │   │   |     unsigned short* video_memory = (unsigned short*)VGA_ADDRESS;
+│   │   │   |     for (int i = 0; i < VGA_WIDTH * VGA_HEIGHT; i++) {
+│   │   │   |         video_memory[i] = (unsigned short)' ' | (0x0F << 8);
+│   │   │   |     }
+│   │   │   |     cursor_x = 0;
+│   │   │   |     cursor_y = 0;
+│   │   │   |     update_cursor();
+│   │   │   | }
+│   │   │   | // Funkció a háttérszín megváltoztatásához (piros háttér = 0x4F)
+│   │   │   | void clear_screen_color(unsigned char color_code) {
+│   │   │   |     unsigned short* video_memory = (unsigned short*)VGA_ADDRESS;
+│   │   │   |     for (int i = 0; i < VGA_WIDTH * VGA_HEIGHT; i++) {
+│   │   │   |         video_memory[i] = (unsigned short)' ' | (color_code << 8);
+│   │   │   |     }
+│   │   │   |     cursor_x = 0;
+│   │   │   |     cursor_y = 0;
+│   │   │   |     update_cursor();
+│   │   │   | }
+│   │   │   | void kernel_panic(const char* message) {
+│   │   │   |     // 0x4F: Piros háttér (4), Fehér villogás nélküli szöveg (F)
+│   │   │   |     clear_screen_color(0x4F);
+│   │   │   |     print("\n");
+│   │   │   |     print(" !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \n");
+│   │   │   |     print(" !!! KAIROS KERNEL PANIC == FATAL ERROR !!!  \n");
+│   │   │   |     print(" !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \n");
+│   │   │   |     print("\n  A fatal error has occurred and KairOS has been halted to prevent damage.\n");
+│   │   │   |     print("  --------------------------------------------------------------------------\n");
+│   │   │   |     print("  KERNEL NAME:    "); print(KERNEL_NAME);    print("\n");
+│   │   │   |     print("  VERSION:    "); print(KERNEL_VERSION); print("\n");
+│   │   │   |     print("  ERROR MSG:  "); print(message);        print("\n");
+│   │   │   |     print("  --------------------------------------------------------------------------\n");
+│   │   │   |     print("  TECHNICAL INFORMATION:\n\n");
+│   │   │   |     print("  * Instruction Pointer (EIP) and Registers: [DUMPED TO SERIAL]\n");
+│   │   │   |     print("  * System state: ATOMIC_CRITICAL_SECTION\n");
+│   │   │   |     print("  * Scheduler: SUSPENDED\n\n");
+│   │   │   |     print("  Please manually power off or restart your hardware.\n");
+│   │   │   |     print("  The system is now in an infinite loop. Contact domesco for support.\n");
+│   │   │   |     asm volatile("cli");
+│   │   │   |     for(;;) {
+│   │   │   |         asm volatile("hlt");
+│   │   │   |     }
+│   │   │   | }
+│   │   └── vga.h
+│   │       | #ifndef VGA_H
+│   │       | #define VGA_H
+│   │       | void print(const char* str);
+│   │       | void clear_screen();
+│   │       | #endif
+│   ├── gdt
+│   │   └── gdt.c
+│   │       | #include "common.h"
+│   │       | struct gdt_entry {
+│   │       |     unsigned short limit_low;
+│   │       |     unsigned short base_low;
+│   │       |     unsigned char base_middle;
+│   │       |     unsigned char access;
+│   │       |     unsigned char granularity;
+│   │       |     unsigned char base_high;
+│   │       | } __attribute__((packed));
+│   │       | struct gdt_ptr {
+│   │       |     unsigned short limit;
+│   │       |     unsigned int base;
+│   │       | } __attribute__((packed));
+│   │       | struct gdt_entry gdt[3];
+│   │       | struct gdt_ptr gp;
+│   │       | void gdt_set_gate(int num, unsigned long base, unsigned long limit, unsigned char access, unsigned char gran) {
+│   │       |     gdt[num].base_low = (base & 0xFFFF);
+│   │       |     gdt[num].base_middle = (base >> 16) & 0xFF;
+│   │       |     gdt[num].base_high = (base >> 24) & 0xFF;
+│   │       |     gdt[num].limit_low = (limit & 0xFFFF);
+│   │       |     gdt[num].granularity = ((limit >> 16) & 0x0F) | (gran & 0xF0);
+│   │       |     gdt[num].access = access;
+│   │       | }
+│   │       | void gdt_install() {
+│   │       |     gp.limit = (sizeof(struct gdt_entry) * 3) - 1;
+│   │       |     gp.base = (unsigned int)&gdt;
+│   │       |     gdt_set_gate(0, 0, 0, 0, 0);
+│   │       |     gdt_set_gate(1, 0, 0xFFFFFFFF, 0x9A, 0xCF);
+│   │       |     gdt_set_gate(2, 0, 0xFFFFFFFF, 0x92, 0xCF);
+│   │       |     // Megjegyzés: élesben itt kellene egy 'lgdt' assembly hívás
+│   │       | }
+│   ├── idt
+│   │   ├── idt.c
+│   │   │   | #include "common.h"
+│   │   │   | struct idt_entry {
+│   │   │   |     unsigned short base_lo;
+│   │   │   |     unsigned short sel;        // Kernel Code Segment (0x08)
+│   │   │   |     unsigned char  always0;
+│   │   │   |     unsigned char  flags;      // 0x8E = Interrupt Gate
+│   │   │   |     unsigned short base_hi;
+│   │   │   | } __attribute__((packed));
+│   │   │   | struct idt_ptr {
+│   │   │   |     unsigned short limit;
+│   │   │   |     unsigned int base;
+│   │   │   | } __attribute__((packed));
+│   │   │   | struct idt_entry idt[256];
+│   │   │   | struct idt_ptr idtp;
+│   │   │   | // Külső assembly függvények
+│   │   │   | extern void idt_load(unsigned int);
+│   │   │   | extern void isr0();
+│   │   │   | void divide_by_zero_handler() {
+│   │   │   |     kernel_panic("EXCEPTION 0x00: Division by Zero");
+│   │   │   | }
+│   │   │   | void idt_set_gate(unsigned char num, unsigned long base, unsigned short sel, unsigned char flags) {
+│   │   │   |     idt[num].base_lo = (base & 0xFFFF);
+│   │   │   |     idt[num].base_hi = (base >> 16) & 0xFFFF;
+│   │   │   |     idt[num].sel = sel;
+│   │   │   |     idt[num].always0 = 0;
+│   │   │   |     idt[num].flags = flags;
+│   │   │   | }
+│   │   │   | void idt_install() {
+│   │   │   |     idtp.limit = (sizeof(struct idt_entry) * 256) - 1;
+│   │   │   |     idtp.base = (unsigned int)&idt;
+│   │   │   |     // Tábla alaphelyzetbe állítása
+│   │   │   |     for(int i = 0; i < 256; i++) idt_set_gate(i, 0, 0, 0);
+│   │   │   |     // 0-s megszakítás (Division by Zero) regisztrálása
+│   │   │   |     idt_set_gate(0, (unsigned long)isr0, 0x08, 0x8E);
+│   │   │   |     // Átadjuk a processzornak
+│   │   │   |     idt_load((unsigned int)&idtp);
+│   │   │   | }
+│   │   └── interrupts.asm
+│   │       | [bits 32]
+│   │       | extern divide_by_zero_handler
+│   │       | global isr0
+│   │       | global idt_load
+│   │       | ; Exception 0 handling
+│   │       | isr0:
+│   │       |     pusha
+│   │       |     call divide_by_zero_handler
+│   │       |     popa
+│   │       |     iret
+│   │       | ; IDT register loading
+│   │       | idt_load:
+│   │       |     mov edx, [esp + 4]
+│   │       |     lidt [edx]
+│   │       |     ret
+│   ├── kernel.c
+│   │   | #include "common.h"
+│   │   | #include "drivers/keyboard.h"
+│   │   | #include "drivers/vga.h"
+│   │   | void gdt_install();
+│   │   | void kmain() {
+│   │   |     gdt_install();
+│   │   |     idt_install();
+│   │   |     clear_screen();
+│   │   |     print("Welcome to KairOS\n");
+│   │   |     print("Kernel version: ");
+│   │   |     print(KERNEL_VERSION);
+│   │   |     print("\n");
+│   │   |     print("main> ");
+│   │   |     while(1) {
+│   │   |         unsigned char scancode = get_scancode();
+│   │   |         if (scancode > 0) {
+│   │   |             run_shell(scancode);
+│   │   |         }
+│   │   |     }
+│   │   | }
+│   ├── lib.c
+│   │   | #include "common.h"
+│   │   | /* --- String kezelő függvények --- */
+│   │   | // Összehasonlít két karakterláncot
+│   │   | int strcmp(const char* s1, const char* s2) {
+│   │   |     while (*s1 && (*s1 == *s2)) {
+│   │   |         s1++;
+│   │   |         s2++;
+│   │   |     }
+│   │   |     return *(unsigned char*)s1 - *(unsigned char*)s2;
+│   │   | }
+│   │   | // Összehasonlít n karaktert
+│   │   | int strncmp(const char* s1, const char* s2, int n) {
+│   │   |     for (int i = 0; i < n; i++) {
+│   │   |         if (s1[i] != s2[i]) return (unsigned char)s1[i] - (unsigned char)s2[i];
+│   │   |         if (s1[i] == '\0') return 0;
+│   │   |     }
+│   │   |     return 0;
+│   │   | }
+│   │   | // Karakterlánc hosszának meghatározása
+│   │   | int strlen(const char* str) {
+│   │   |     int len = 0;
+│   │   |     while (str[len]) len++;
+│   │   |     return len;
+│   │   | }
+│   │   | /* --- Számformázás --- */
+│   │   | void itoa(int n, char s[]) {
+│   │   |     int i, sign;
+│   │   |     if ((sign = n) < 0) n = -n;
+│   │   |     i = 0;
+│   │   |     do {
+│   │   |         s[i++] = n % 10 + '0';
+│   │   |     } while ((n /= 10) > 0);
+│   │   |     if (sign < 0) s[i++] = '-';
+│   │   |     s[i] = '\0';
+│   │   |     for (int j = 0, k = i-1; j < k; j++, k--) {
+│   │   |         char temp = s[j];
+│   │   |         s[j] = s[k];
+│   │   |         s[k] = temp;
+│   │   |     }
+│   │   | }
+│   │   | /* --- Hardver közeli segédfüggvények --- */
+│   │   | void get_cpu_vendor() {
+│   │   |     unsigned int ebx, ecx, edx;
+│   │   |     char vendor[13];
+│   │   |     asm volatile("cpuid" : "=b"(ebx), "=c"(ecx), "=d"(edx) : "a"(0));
+│   │   |     *((unsigned int*)&vendor[0]) = ebx;
+│   │   |     *((unsigned int*)&vendor[4]) = edx;
+│   │   |     *((unsigned int*)&vendor[8]) = ecx;
+│   │   |     vendor[12] = '\0';
+│   │   |     print(vendor);
+│   │   | }
+│   │   | void outb(unsigned short port, unsigned char val) {
+│   │   |     asm volatile ("outb %0, %1" : : "a"(val), "Nd"(port));
+│   │   | }
+│   │   | void outw(unsigned short port, unsigned short val) {
+│   │   |     asm volatile ("outw %0, %1" : : "a"(val), "Nd"(port));
+│   │   | }
+│   │   | unsigned char inb(unsigned short port) {
+│   │   |     unsigned char ret;
+│   │   |     asm volatile ("inb %1, %0" : "=a"(ret) : "Nd"(port));
+│   │   |     return ret;
+│   │   | }
+│   ├── linker.ld
+│   │   | /* Meghatározzuk a belépési pontot */
+│   │   | ENTRY(_start)
+│   │   | SECTIONS
+│   │   | {
+│   │   |     /* 1MB-nál kezdünk */
+│   │   |     . = 0x100000;
+│   │   |     /* A kód szekció, multiboot fejléccel az elején */
+│   │   |     .text BLOCK(4K) : ALIGN(4K)
+│   │   |     {
+│   │   |         *(.multiboot)
+│   │   |         *(.text)
+│   │   |     }
+│   │   |     /* Csak olvasható adatok (pl. az ASCII logód és stringek) */
+│   │   |     .rodata BLOCK(4K) : ALIGN(4K)
+│   │   |     {
+│   │   |         *(.rodata)
+│   │   |     }
+│   │   |     /* Inicializált adatok */
+│   │   |     .data BLOCK(4K) : ALIGN(4K)
+│   │   |     {
+│   │   |         *(.data)
+│   │   |     }
+│   │   |     /* BSS szekció (inicializálatlan adatok, ide kerül az IDT is) */
+│   │   |     .bss BLOCK(4K) : ALIGN(4K)
+│   │   |     {
+│   │   |         *(COMMON)
+│   │   |         *(.bss)
+│   │   |     }
+│   │   | }
+│   └── shell
+│       ├── commands
+│       │   ├── commands.txt
+│       │   │   | # System / Diagnostics
+│       │   │   | test (echo|panic|mem)                     system tests
+│       │   │   | info                                     show basic system info #help
+│       │   │   | uptime                                   show kernel uptime #help
+│       │   │   | reboot                                   reboot the system #flag
+│       │   │   | shutdown                                 shut down the system #flag
+│       │   │   | version                                  show kernel version #help
+│       │   │   | cpustats                                 display CPU usage stats #help
+│       │   │   | memstats                                 display memory usage stats #help
+│       │   │   | irqstats                                 display interrupt stats #help
+│       │   │   | tasks                                     list running tasks #help
+│       │   │   | kill <task_id>                            terminate a task #flag
+│       │   │   | # Memory
+│       │   │   | alloc <size>                              allocate memory block #help
+│       │   │   | free <addr>                               free memory block #help
+│       │   │   | memread <addr> <size>                     read memory content #help
+│       │   │   | memwrite <addr> <data>                    write memory content #flag
+│       │   │   | stackdump                                 dump current stack #help
+│       │   │   | heapdump                                  dump heap memory #help
+│       │   │   | # IO
+│       │   │   | in <port>                                 read from IO port #help
+│       │   │   | out <port> <value>                        write to IO port #flag
+│       │   │   | gpio <pin> (set|clear|read)               control GPIO pin #help
+│       │   │   | uart send <data>                           send data via UART #flag
+│       │   │   | uart recv                                  receive data via UART #help
+│       │   │   | led (on|off|blink)                         onboard LED control #flag
+│       │   │   | # CPU / Low-Level
+│       │   │   | hlt                                       halt CPU until next interrupt #help
+│       │   │   | nop                                       no operation #help
+│       │   │   | cpuid                                     get CPU info #help
+│       │   │   | interrupt <num>                            trigger software interrupt #flag
+│       │   │   | enable_irq                                 enable interrupts #flag
+│       │   │   | disable_irq                                disable interrupts #flag
+│       │   │   | set_flag <flag>                             set CPU flag #flag
+│       │   │   | clear_flag <flag>                           clear CPU flag #flag
+│       │   │   | get_flags                                  show CPU flags #help
+│       │   │   | # Debug / Logging
+│       │   │   | log show <lines>                           display last <lines> log entries #help
+│       │   │   | log clear                                   clear log buffer #flag
+│       │   │   | trace start                                 start function tracing #flag
+│       │   │   | trace stop                                  stop function tracing #flag
+│       │   │   | break <addr>                                set breakpoint at addr #flag
+│       │   │   | watch <addr>                                watch memory address #flag
+│       │   │   | # Timers
+│       │   │   | sleep <ms>                                 sleep for milliseconds #flag
+│       │   │   | timer start <id> <interval>                 start a timer #flag
+│       │   │   | timer stop <id>                             stop a timer #flag
+│       │   │   | tickcount                                  show system tick count #help
+│       │   │   | # Network / Basic (assuming NIC driver soon)
+│       │   │   | net up                                    initialize network #flag
+│       │   │   | net down                                  disable network #flag
+│       │   │   | net status                                 show network status #help
+│       │   │   | ping <ip>                                  ping an IP #flag
+│       │   │   | ipconfig                                   show network config #help
+│       │   │   | # Extra Utilities
+│       │   │   | echo <text>                                print text to console #help
+│       │   │   | clear                                      clear screen #flag
+│       │   │   | date                                       show current date/time #help
+│       │   │   | rand <min> <max>                            generate random number #help
+│       │   │   | version check                              check for kernel updates #help
+│       │   ├── cpu.c
+│       │   │   | #include "common.h"
+│       │   │   | void command_cpu(const char* args) {
+│       │   │   |     unsigned int eax, ebx, ecx, edx;
+│       │   │   |     static char vendor[13];
+│       │   │   |     static char brand[49];
+│       │   │   |     // 1. Vendor lekérése (EAX=0)
+│       │   │   |     asm volatile("cpuid" : "=a"(eax), "=b"(ebx), "=c"(ecx), "=d"(edx) : "a"(0));
+│       │   │   |     *((unsigned int*)&vendor[0]) = ebx;
+│       │   │   |     *((unsigned int*)&vendor[4]) = edx;
+│       │   │   |     *((unsigned int*)&vendor[8]) = ecx;
+│       │   │   |     vendor[12] = '\0';
+│       │   │   |     // 2. Brand String lekérése (EAX=0x80000002, 0x80000003, 0x80000004)
+│       │   │   |     // Megnézzük, támogatja-e a CPU a Brand stringet
+│       │   │   |     asm volatile("cpuid" : "=a"(eax) : "a"(0x80000000));
+│       │   │   |     if (eax >= 0x80000004) {
+│       │   │   |         unsigned int *brand_ptr = (unsigned int*)brand;
+│       │   │   |         for (unsigned int i = 0; i < 3; i++) {
+│       │   │   |             asm volatile("cpuid"
+│       │   │   |                          : "=a"(brand_ptr[i*4 + 0]), "=b"(brand_ptr[i*4 + 1]),
+│       │   │   |                            "=c"(brand_ptr[i*4 + 2]), "=d"(brand_ptr[i*4 + 3])
+│       │   │   |                          : "a"(0x80000002 + i));
+│       │   │   |         }
+│       │   │   |         brand[48] = '\0';
+│       │   │   |     } else {
+│       │   │   |         brand[0] = '\0'; // Ha nem támogatja, üres marad
+│       │   │   |     }
+│       │   │   |     // 3. Magok száma (EAX=1 -> EBX bits 16-23)
+│       │   │   |     asm volatile("cpuid" : "=a"(eax), "=b"(ebx), "=c"(ecx), "=d"(edx) : "a"(1));
+│       │   │   |     int cores = (ebx >> 16) & 0xFF;
+│       │   │   |     char core_buf[4];
+│       │   │   |     itoa(cores, core_buf);
+│       │   │   |     // 4. KIÍRÁS (Egyetlen blokkban, hogy ne legyen Triple Fault a sok hívástól)
+│       │   │   |     print("\nCPU: ");
+│       │   │   |     print(vendor);
+│       │   │   |     if (brand[0] != '\0') {
+│       │   │   |         print(" (");
+│       │   │   |         print(brand);
+│       │   │   |         print(")");
+│       │   │   |     }
+│       │   │   |     print("\nLogical Cores: ");
+│       │   │   |     print(core_buf);
+│       │   │   |     print("\n");
+│       │   │   | }
+│       │   ├── extra_cmds.c
+│       │   │   | #include "common.h"
+│       │   │   | void command_echo(const char* args) {
+│       │   │   |     // A "echo " utáni részt írjuk ki (5. karaktertől)
+│       │   │   |     if (strlen(args) > 5) {
+│       │   │   |         print(args + 5);
+│       │   │   |         print("\n");
+│       │   │   |     } else {
+│       │   │   |         print("\n");
+│       │   │   |     }
+│       │   │   | }
+│       │   │   | void command_rand(const char* args) {
+│       │   │   |     print("Random: 4 (Chosen by fair dice roll, guaranteed to be random)\n");
+│       │   │   | }
+│       │   ├── io_cmds.c
+│       │   │   | #include "common.h"
+│       │   │   | void command_in(const char* args) {
+│       │   │   |     print("Usage: in <port_hex>\n");
+│       │   │   |     // Parsolás után: unsigned char val = inb(port);
+│       │   │   | }
+│       │   │   | void command_out(const char* args) {
+│       │   │   |     print("Usage: out <port_hex> <val_hex>\n");
+│       │   │   | }
+│       │   │   | void command_hlt(const char* args) {
+│       │   │   |     print("System Halted. Press any key (IRQ) to wake.\n");
+│       │   │   |     asm volatile("hlt");
+│       │   │   | }
+│       │   │   | void command_nop(const char* args) {
+│       │   │   |     asm volatile("nop");
+│       │   │   |     print("Executed NOP.\n");
+│       │   │   | }
+│       │   ├── mem_cmds.c
+│       │   │   | #include "common.h"
+│       │   │   | void command_stackdump(const char* args) {
+│       │   │   |     print("Stack Dump (Current Frame):\n");
+│       │   │   |     unsigned int *esp;
+│       │   │   |     asm volatile("mov %%esp, %0" : "=r"(esp));
+│       │   │   |     for(int i = 0; i < 8; i++) {
+│       │   │   |         print("0x");
+│       │   │   |         // Itt a már megírt cpu_print_hex-et használhatnád
+│       │   │   |         print(" [Frame data placeholder]\n");
+│       │   │   |     }
+│       │   │   | }
+│       │   │   | void command_mem_placeholder(const char* args) {
+│       │   │   |     print("Memory operation: Paging/Dynamic Allocator required for this command.\n");
+│       │   │   | }
+│       │   ├── sys_cmds.c
+│       │   │   | #include "common.h"
+│       │   │   | void command_info(const char* args) {
+│       │   │   |     print("\n--- KairOS System Info ---\n");
+│       │   │   |     print("Kernel: "); print(KERNEL_NAME); print("\n");
+│       │   │   |     print("Version: "); print(KERNEL_VERSION); print("\n");
+│       │   │   |     print("Build: " __DATE__ " " __TIME__ "\n");
+│       │   │   |     print("Status: Operational / Ring 0\n");
+│       │   │   | }
+│       │   │   | void command_uptime(const char* args) {
+│       │   │   |     print("Uptime: Feature requires PIT timer initialization.\n");
+│       │   │   | }
+│       │   │   | void command_reboot(const char* args) {
+│       │   │   |     print("Rebooting via PS/2 Controller...\n");
+│       │   │   |     outb(0x64, 0xFE);
+│       │   │   | }
+│       │   │   | void command_shutdown(const char* args) {
+│       │   │   |     print("Shutting down...\n");
+│       │   │   |     outw(0x604, 0x2000);   // QEMU - outb helyett outw!
+│       │   │   |     outw(0x4004, 0x3400);  // VirtualBox - outb helyett outw!
+│       │   │   | }
+│       │   │   | void command_version(const char* args) {
+│       │   │   |     print("KairOS Version: "); print(KERNEL_VERSION); print("\n");
+│       │   │   | }
+│       │   │   | void command_stats_placeholder(const char* args) {
+│       │   │   |     print("Statistics: Scheduler/Memory Manager not yet reporting.\n");
+│       │   │   | }
+│       │   ├── system.c
+│       │   │   | #include "common.h"
+│       │   │   | // Felhasználói infó
+│       │   │   | void command_whoami() {
+│       │   │   |     print("Current user: root\n");
+│       │   │   |     print("Privileges: ring 0 (Kernel Mode)\n");
+│       │   │   | }
+│       │   │   | // Idő (egyelőre egy egyszerűbb verzió, hogy ne legyen hiba)
+│       │   │   | void command_time() {
+│       │   │   |     print("RTC Time: Feature coming soon (needs CMOS driver)\n");
+│       │   │   | }
+│       │   └── test.c
+│       │       | #include "common.h"
+│       │       | // Segédfüggvény: megkeresi az első szóközt és visszaadja a maradék szöveget
+│       │       | const char* get_arg(const char* buf) {
+│       │       |     while (*buf != ' ' && *buf != '\0') buf++;
+│       │       |     if (*buf == ' ') return buf + 1;
+│       │       |     return ""; // Nincs argumentum
+│       │       | }
+│       │       | void command_test(const char* full_buffer) {
+│       │       |     const char* arg = get_arg(full_buffer);
+│       │       |     if (strcmp(arg, "echo") == 0) {
+│       │       |         print("Test: Echo system is working!\n");
+│       │       |     }
+│       │       |     else if (strcmp(arg, "panic") == 0) {
+│       │       |         kernel_panic("TEST_PANIC: User triggered a crash test.");
+│       │       |     }
+│       │       |     else if (strcmp(arg, "halt") == 0) {
+│       │       |         print("Test: Halting system...\n");
+│       │       |         asm volatile("hlt");
+│       │       |     }
+│       │       |     else {
+│       │       |         print("Usage: test <echo|panic|halt>\n");
+│       │       |     }
+│       │       | }
+│       ├── shell.c
+│       │   | #include "common.h"
+│       │   | #include "shell.h"
+│       │   | #define MAX_BUFFER_SIZE 128
+│       │   | static char shell_buffer[MAX_BUFFER_SIZE];
+│       │   | static int buffer_index = 0;
+│       │   | extern void clear_screen(); // Ez a vga.c-ben van
+│       │   | void command_clear(const char* args) {
+│       │   |     clear_screen();
+│       │   | }
+│       │   | // Extern deklarációk (Hogy a shell lássa a többi fájlt)
+│       │   | extern void command_cpu(const char* args);
+│       │   | extern void command_info(const char* args);
+│       │   | extern void command_uptime(const char* args);
+│       │   | extern void command_reboot(const char* args);
+│       │   | extern void command_shutdown(const char* args);
+│       │   | extern void command_version(const char* args);
+│       │   | extern void command_stats_placeholder(const char* args);
+│       │   | extern void command_stackdump(const char* args);
+│       │   | extern void command_in(const char* args);
+│       │   | extern void command_out(const char* args);
+│       │   | extern void command_hlt(const char* args);
+│       │   | extern void command_nop(const char* args);
+│       │   | extern void command_echo(const char* args);
+│       │   | extern void command_test(const char* args);
+│       │   | command_t commands[] = {
+│       │   |     {"cpu",      "CPU info",          command_cpu},
+│       │   |     {"info",     "System info",       command_info},
+│       │   |     {"uptime",   "System uptime",     command_uptime},
+│       │   |     {"reboot",   "Reboot system",     command_reboot},
+│       │   |     {"shutdown", "Shutdown system",   command_shutdown},
+│       │   |     {"version",  "Kernel version",    command_version},
+│       │   |     {"tasks",    "Task list",         command_stats_placeholder},
+│       │   |     {"stackdump","Dump stack",        command_stackdump},
+│       │   |     {"in",       "Read port",         command_in},
+│       │   |     {"out",      "Write port",        command_out},
+│       │   |     {"hlt",      "Halt CPU",          command_hlt},
+│       │   |     {"nop",      "No operation",      command_nop},
+│       │   |     {"echo",     "Print text",        command_echo},
+│       │   |     {"test",     "Run tests",         command_test},
+│       │   |     {"clear",    "Clear screen",      command_clear} // VGA driverben van
+│       │   | };
+│       │   | int num_commands = sizeof(commands) / sizeof(command_t);
+│       │   | void reset_buffer() {
+│       │   |     for (int i = 0; i < MAX_BUFFER_SIZE; i++) shell_buffer[i] = 0;
+│       │   |     buffer_index = 0;
+│       │   | }
+│       │   | void execute_command() {
+│       │   |     print("\n");
+│       │   |     shell_buffer[buffer_index] = '\0';
+│       │   |     if (strcmp(shell_buffer, "help") == 0) {
+│       │   |         print("KairOS v0.4 - Available Commands:\n");
+│       │   |         for (int i = 0; i < num_commands; i++) {
+│       │   |             print(commands[i].name); print(" - "); print(commands[i].help); print("\n");
+│       │   |         }
+│       │   |     }
+│       │   |     else {
+│       │   |         int found = 0;
+│       │   |         for (int i = 0; i < num_commands; i++) {
+│       │   |             int name_len = strlen(commands[i].name);
+│       │   |             // Itt használjuk a lib.c-ben lévő strncmp-t
+│       │   |             if (strncmp(shell_buffer, commands[i].name, name_len) == 0 &&
+│       │   |                (shell_buffer[name_len] == ' ' || shell_buffer[name_len] == '\0')) {
+│       │   |                 commands[i].handler(shell_buffer);
+│       │   |                 found = 1;
+│       │   |                 break;
+│       │   |             }
+│       │   |         }
+│       │   |         if (!found && buffer_index > 0) {
+│       │   |             print("Unknown command: "); print(shell_buffer);
+│       │   |         }
+│       │   |     }
+│       │   |     print("\nKairOS> ");
+│       │   |     reset_buffer();
+│       │   | }
+│       │   | // ... run_shell függvény ...
+│       │   | void run_shell(unsigned char scancode) {
+│       │   |     unsigned char ascii = get_ascii(scancode);
+│       │   |     if (ascii == 0) return;
+│       │   |     if (ascii == '\n') {
+│       │   |         shell_buffer[buffer_index] = '\0';
+│       │   |         execute_command();
+│       │   |     }
+│       │   |     else if (ascii == '\b') {
+│       │   |         if (buffer_index > 0) {
+│       │   |             buffer_index--;
+│       │   |             shell_buffer[buffer_index] = '\0';
+│       │   |             print("\b");
+│       │   |         }
+│       │   |     }
+│       │   |     else {
+│       │   |         if (buffer_index < MAX_BUFFER_SIZE - 1) {
+│       │   |             shell_buffer[buffer_index] = ascii;
+│       │   |             buffer_index++;
+│       │   |             char s[2] = {ascii, '\0'};
+│       │   |             print(s);
+│       │   |         }
+│       │   |     }
+│       │   | }
+│       └── shell.h
+│           | #ifndef SHELL_H
+│           | #define SHELL_H
+│           | typedef struct {
+│           |     const char* name;
+│           |     const char* help;
+│           |     void (*handler)(const char* full_buf);
+│           | } command_t;
+│           | void run_shell(unsigned char scancode);
+│           | void execute_command();
+│           | #endif
+└── tree_dump.txt
